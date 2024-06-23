@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+}
+
+:root {
+    --cor0: #009ABB;
+    --cor1: #95D2CC;
+    --cor2: #E45940;
+    --cor3: ;
+    --cor4: #F8F6F4;
+
+    --fonte1: "Krona One", sans-serif;
+    --fonte2: "Montserrat", sans-serif;
+}
+
+
+body {
+    box-sizing: border-box;
+    height: 100vh;
+
+    
+}
+
+.cabecalho {
+    padding: 30px 0 30px 100px;
+
+    background-color: var(--cor0);
+}
+
+.cabecalho-menu {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cabecalho-menu-links {
+    display: flex; 
+    gap: 40px;
+    align-items: center;
+}
+
+.cabecalho-menu-link-links {
+    text-decoration: none;
+    font-family: var(--fonte2);
+
+    color: var(--cor4);
+    font-weight: bold;
+}
+
+.cabecalho-menu-logo {
+    padding-right: 150px;
+
+    color: var(--cor4);
+    font-weight: 700;
+    font-size: 20px;
+    font-family: var(--fonte1);
+}
+
+.principal {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    margin: 8.1% 12%;
+}
+
+.principal-img {
+    width: 63.5%;
+}
+
+.principal-apresentacao {
+    margin: 5%;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.principal-apresentacao-titulo {
+    padding: 0 0 30px 0;
+    
+    color: #E45940;
+    font-size: 35px;
+
+    font-family: var(--fonte1);
+}
+
+.principal-apresentacao-texto {
+    padding: 0 0 30px 0;
+
+    font-weight: 500;
+    text-align: justify;
+    font-family: var(--fonte2);
+}
+
+.principal-apresentacao-botao {
+    text-decoration: none;
+    color: var(--cor2);
+    font-weight: bold;
+
+    font-family: var(--fonte2);
+
+    border: 2px solid var(--cor2);
+    border-radius: 15px;
+
+    padding: 10px;
+}
+
+.principal-apresentacao-botao:hover {
+    background-color: var(--cor0);
+    border: 2px solid var(--cor0);
+    color: var(--cor4);
+}
+
+/* Cátalogo de Jogos, provavelmente irei colocar em outro arquivo .css */
+
+.principal-catalogo {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.principal-catalogo-titulo {
+    margin: 5% 10%;
+    padding-top: 60px;
+    
+    color: #E45940;
+    font-size: 35px;
+
+    font-family: var(--fonte1);
+}
+
+.principal-catalogo-texto {
+    padding: 0 0 30px 0;
+
+    font-weight: 500;
+    text-align: justify;
+    font-family: var(--fonte2);
+}
+
+.principal-catalogo-jogos {
+    display: flex;
+    gap: 30px;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 70px;
+    width: 80%;
+}
+
+.principal-catalogo-jogos-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+
+    border: 2px solid var(--cor2);
+    border-radius: 20px; 
+}
+
+.principal-catalogo-jogos-item-texto {
+    font-family: var(--fonte2);
+    font-weight: 700;
+    color: #E45940;
+
+}
+
+.principal-catalogo-jogos-item:hover {
+    background-color: #009ABB;
+    border: 2px solid var(--cor0);
+
+    color: var(--cor4);
+}
+
+.principal-catalogo-jogos-item:hover p {
+    color: var(--cor4);
+}
+
+.rodape {
+    padding: 30px;
+    background-color: var(--cor0);
+}
+
+.rodape-texto {
+    text-align: center;
+
+    color: var(--cor4);
+
+    font-family: var(--fonte2);
+}
+
+
+
+
+
+
+
